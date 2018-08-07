@@ -94,7 +94,11 @@ body
     line-height: 2.5
 }
 
-
+.carousel-caption h1
+{
+    margin: 0;
+    font-weight: bold
+}
 .carousel-indicators li
 {
     width: 13px;
@@ -114,25 +118,23 @@ body
     background-color: #4f67bd
 }
 
-@media only screen and (min-width: 300px){
+@media only screen and (min-width: 300px) and (max-width: 767px){
     
     .carousel-caption{
         
-        margin-bottom: 12%
+        margin-bottom: 20%
     }
     
     .carousel-caption h1 
     {
-        font-size: 28px
+        font-size: 20px
     }
 }
 
-@media only screen and (min-width: 300px){
+@media only screen and (min-width: 768px){
     
-    .carousel-caption{
-        
-        margin-bottom: 18%
-    }
+    .carousel-caption { margin-bottom: 13% }
+    .carousel-caption h1 { font-size: 27px }
 }
 
 
