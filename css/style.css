@@ -127,6 +127,14 @@ body
     }
 }
 
+@media only screen and (min-width: 300px){
+    
+    .carousel-caption{
+        
+        margin-bottom: 18%
+    }
+}
+
 
 /******************* End Slider ****************/
 
