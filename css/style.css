@@ -125,12 +125,12 @@ body
     
     .carousel-caption{
         
-        margin-bottom: 20%
+        margin-bottom: 18%
     }
     
     .carousel-caption h1 
     {
-        font-size: 20px
+        font: 3.1vw
     }
 }
 
